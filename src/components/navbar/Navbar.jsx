@@ -31,8 +31,26 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        <p>Sign in</p>
-        <button type="button">Sign up</button>
+        <p>
+          <a
+            href="https://polanai.netlify.app/login"
+            rel="noreferrer"
+            style={{
+              textDecoration: 'none',
+            }}
+          >
+            Sign in
+          </a>
+        </p>
+        <a
+          href="https://polanai.netlify.app/login"
+          rel="noreferrer"
+          style={{
+            textDecoration: 'none',
+          }}
+        >
+          <button type="button">Sign up</button>
+        </a>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu ? (
