@@ -10,7 +10,7 @@ const Header = () => (
         Let&apos;s Build Something amazing with GPT-3 OpenAI
       </h1>
       <p>
-        Head over to our GPT-3 OpeanAI powered TV advert screen writing tool.
+        Head over to our GPT-3 OpenAI powered TV advert screen writing tool.
       </p>
 
       <div className="gpt3__header-content__input">
